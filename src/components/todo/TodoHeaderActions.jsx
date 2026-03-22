@@ -4,7 +4,7 @@ export default function TodoHeaderActions() {
       <li className="flex space-x-1 cursor-pointer">
         <img
           className="w-4 h-4"
-          src="./images/double-tick.png"
+          src="/src/assets/images/double-tick.png"
           alt="Complete"
         />
         <span>Complete All Tasks</span>
