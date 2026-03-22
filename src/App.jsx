@@ -1,10 +1,13 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
+import TodoList from "./components/todo/TodoList";
 
 function App() {
   return (
-    <>
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <div className="grid place-items-center bg-blue-100 h-screen px-6 font-sans">
+      <Navbar/>
+      <TodoList/>
+    </div>
   );
 }
 
